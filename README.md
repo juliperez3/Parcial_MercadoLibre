@@ -29,6 +29,7 @@ Devuelve un JSON con el conteo de mutantes y humanos verificados.
   <li>"mutant": true</li>
 </ul>
 { "dna": ["TGAC", "AGCC", "TGAC", "GGTC"] }
+
 <ul> 
   <li>"mutant": false</li>
 </ul>
