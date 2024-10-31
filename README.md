@@ -12,8 +12,8 @@ API REST para detectar mutables, en Render: link
 
 <h3>📌Nivel 3</h3>
 Devuelve un JSON con el conteo de mutantes y humanos verificados.
-- Metodo y Endpoint: GET → /stats/ 
-- Formato de respuesta:
+<h5>Metodo y Endpoint: GET → /stats/</h5> 
+<h5>Formato de respuesta:</h5>
 {
   "count_mutant_dna": 40,
   "count_human_dna": 100,
