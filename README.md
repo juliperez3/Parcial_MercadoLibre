@@ -10,9 +10,7 @@ API REST para detectar mutables, en Render: link
   <li>Metodo y Endpoint: POST → /mutant/</li>
   <li>Formato del body:</li>
 </ul>
-`
 { "dna": ["ATGCGA", "CAGTGC", "TTATGT", "AGAAGG", "CCCCTA", "TCACTG"] }
-`
 
 <h3>📌Nivel 3</h3>
 Devuelve un JSON con el conteo de mutantes y humanos verificados.
@@ -20,13 +18,11 @@ Devuelve un JSON con el conteo de mutantes y humanos verificados.
   <li>Metodo y Endpoint: GET → /stats/</li>
   <li>Formato de respuesta:</li>
 </ul>
-```
 {
   "count_mutant_dna": 40,
   "count_human_dna": 100,
   "ratio": 0.4
 }
-```
 
 <h3>📌 Ejemplos para Pruebas</h3>
 <ul> 
@@ -44,7 +40,9 @@ Devuelve un JSON con el conteo de mutantes y humanos verificados.
 
 <h3>📌 Enlaces para Pruebas</h3>
 <ul>
-  <li>Swagger UI: Si la API está en funcionamiento, puedes realizar pruebas en http://localhost:8080/swagger-ui/index.html.</li>
+  <li></li>
+  <li></li>
+  <li></li>
 </ul>
 
 
