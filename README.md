@@ -5,7 +5,7 @@ Este proyecto permite detectar si un humano es mutante basándose en su secuenci
 Programa  en java spring boot que cumpla con el método pedido por Magneto utilizando una arquitectura en capas de controladores, servicios y repositorios. 
 
 <h3>📌Nivel 2</h3>
-API REST para detectar mutables, en Render: [link](https://parcial-mercadolibre.onrender.com)
+API REST para detectar mutables, en Render: https://parcial-mercadolibre.onrender.com
 <ul> 
   <li>Metodo y Endpoint: POST → /mutant/</li>
   <li>Formato del body:</li>
@@ -43,5 +43,6 @@ Se utiliza Postman para realizar las pruebas y se deben seguir los siguientes pa
 </ul>
 
 <h3>📌 Diagrama de Secuencia</h3>
-![DiagramaSecuenciaMP](https://github.com/user-attachments/assets/950aee06-70dd-460a-b95d-cf9a83471516)
+![DiagramaSecuenciaMP](https://github.com/user-attachments/assets/18f68c09-37c2-4360-a5a6-407d00b5032c)
+
 
