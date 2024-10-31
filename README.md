@@ -43,4 +43,5 @@ Se utiliza Postman para realizar las pruebas y se deben seguir los siguientes pa
 </ul>
 
 <h3>📌 Diagrama de Secuencia</h3>
+![DiagramaSecuenciaMP](https://github.com/user-attachments/assets/950aee06-70dd-460a-b95d-cf9a83471516)
 
