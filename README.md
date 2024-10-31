@@ -6,25 +6,41 @@ Programa  en java spring boot que cumpla con el método pedido por Magneto utili
 
 <h3>📌Nivel 2</h3>
 API REST para detectar mutables, en Render: link
-<h5>- Metodo y Endpoint: POST → /mutant/</h5>
-<h5>- Formato del Body:</h5>
+<ul> 
+  <li>Metodo y Endpoint: POST → /mutant/</li>
+  <li>Formato del body:</li>
+</ul>
+```
 { "dna": ["ATGCGA", "CAGTGC", "TTATGT", "AGAAGG", "CCCCTA", "TCACTG"] }
+```
 
 <h3>📌Nivel 3</h3>
 Devuelve un JSON con el conteo de mutantes y humanos verificados.
-<h5>Metodo y Endpoint: GET → /stats/</h5> 
-<h5>Formato de respuesta:</h5>
+<ul> 
+  <li>Metodo y Endpoint: GET → /stats/</li>
+  <li>Formato de respuesta:</li>
+</ul>
+```
 {
   "count_mutant_dna": 40,
   "count_human_dna": 100,
   "ratio": 0.4
 }
+```
 
 <h3>📌 Ejemplos para Pruebas</h3>
-<h5>- "mutant": true</h5>
+<ul> 
+  <li>"mutant": true</li>
+</ul>
+```
 { "dna": ["TGAC", "AGCC", "TGAC", "GGTC"] }
-<h5>- "mutant": false</h5>
+```
+<ul> 
+  <li>"mutant": false</li>
+</ul>
+```
 { "dna": ["AAAT", "AACC", "AAAC", "CGGG"] }
+```
 
 <h3>📌 Enlaces para Pruebas</h3>
 <ul>
