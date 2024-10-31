@@ -5,7 +5,7 @@ Este proyecto permite detectar si un humano es mutante basándose en su secuenci
 Programa  en java spring boot que cumpla con el método pedido por Magneto utilizando una arquitectura en capas de controladores, servicios y repositorios. 
 
 <h3>📌Nivel 2</h3>
-API REST para detectar mutables, en Render: link
+API REST para detectar mutables, en Render: [link](https://parcial-mercadolibre.onrender.com)
 <ul> 
   <li>Metodo y Endpoint: POST → /mutant/</li>
   <li>Formato del body:</li>
@@ -28,22 +28,19 @@ Devuelve un JSON con el conteo de mutantes y humanos verificados.
 <ul> 
   <li>"mutant": true</li>
 </ul>
-```
 { "dna": ["TGAC", "AGCC", "TGAC", "GGTC"] }
-```
 <ul> 
   <li>"mutant": false</li>
 </ul>
-```
 { "dna": ["AAAT", "AACC", "AAAC", "CGGG"] }
-```
 
 <h3>📌 Enlaces para Pruebas</h3>
+Se utiliza Postman para realizar las pruebas y se deben seguir los siguientes pasos:
 <ul>
-  <li></li>
-  <li></li>
-  <li></li>
+  <li>Crear un POST y un GET</li>
+  <li>En el POST, se pega el siguiente enlace: http://localhost:8080/mutant. Luego, se ingresa uno de los ejemplos mencionados anteriormente o inventados por uno mismo y se verifica la respuesta.</li>
+  <li>En el GET, se pega el siguiente enlace: http://localhost:8080/stats. Esto nos devuelve un JSON con el conteo de mutantes y humanos verificados.</li>
 </ul>
 
-
 <h3>📌 Diagrama de Secuencia</h3>
+
