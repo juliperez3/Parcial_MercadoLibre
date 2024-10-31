@@ -10,9 +10,9 @@ API REST para detectar mutables, en Render: link
   <li>Metodo y Endpoint: POST → /mutant/</li>
   <li>Formato del body:</li>
 </ul>
-```
+`
 { "dna": ["ATGCGA", "CAGTGC", "TTATGT", "AGAAGG", "CCCCTA", "TCACTG"] }
-```
+`
 
 <h3>📌Nivel 3</h3>
 Devuelve un JSON con el conteo de mutantes y humanos verificados.
